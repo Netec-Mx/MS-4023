@@ -8,17 +8,12 @@ layout: home
 
 This page lists exercises associated with Microsoft skilling content on [Microsoft Learn](https://learn.microsoft.com)
 
-<!-- You can edit the paragraph above to provide a more specific description and links to content on Learn.
-
-Include the following note if an Azure subscription is required (or add something similar for any other requirements, such as a Microsoft 365 account).
-
-> **Note**: To complete these exercises, you will need a [Microsoft Azure subscription](https://azure.microsoft.com/free) in which you have sufficient permissions to create and configure the required resources.
-
-If a more complex setup is required, create a separate markdown file with setup instructions at \Instructions\Labs\00-setup.md - being sure to include "lab.title"" metadata at the top so it shows up the list below
--->
-
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-{% for activity in labs  %}
-- [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
-{% endfor %}
-
+###Lab 1 - Plan a Client Summit with Microsoft 365 Copilot Chat### (Instructions/Labs/Lab_01_Plan_event_Copilot_Chat.md)
+###Lab 2 - Plan a virtual team-building event with Microsoft 365 Copilot Chat###(Instructions/Labs/Lab_02_Plan_virtual_team_event_Copilot_Chat.md)
+## 📬 **Contacto y más información**
+ 
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
+ 
+---
+ 
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
