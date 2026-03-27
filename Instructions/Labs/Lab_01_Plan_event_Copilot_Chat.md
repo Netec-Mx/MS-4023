@@ -15,7 +15,7 @@ The tasks in this lab will guide you on how to navigate and prompt in Microsoft 
 
 Before you can start this lab, you'll need to log into your virtual machine and launch the Microsoft 365 Copilot Chat web app. Follow the steps below to get started: 
 
-1. Log into the virtual machine provided by your tenant provider as the local **(provided by your tenant provider)** account.
+1. Access the virtual machine provided by the tenant provider by logging in with the local account supplied by that provider.
    
 1. In the Windows taskbar, select **Microsoft Edge**.
    
